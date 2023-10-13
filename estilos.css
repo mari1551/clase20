@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+header{
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    height: 200px;
+    color:white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+#titulo{
+    text-align: center;
+}
+.opcionesMenu{
+    height: 50px;
+    background-color: #B8AD9D;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.opcionesMenu a{
+    margin-right: 15px;
+    color:white;
+    font-weight: bold;    
+}
+#DivCuerpo{
+    background-color:white;
+    height: 300px;
+    color:#CB9B7B;
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#DivProducto{
+    background-color: #f8f9fa;
+}
+.producto{
+    margin:15px;
+    border-bottom: 1px solid gainsboro;
+}
+.producto h3{
+    color:#304773;
+}
+
+#DivInsertar{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top:30px;
+}
+#formInsertar{
+    border: 1px solid #B8AD9D;
+    border-radius: 5px;
+}
+
+#listadoInsercion{
+    margin:20px;
+}
+#listadoEliminacion{
+    margin:20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#DCC6A8;
+    color: #304773;
+    text-align: center;
+    padding: 10px;
+}
